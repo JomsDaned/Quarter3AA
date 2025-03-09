@@ -1,0 +1,30 @@
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+}
+.question { 
+    font-size: 18px; 
+}
+.options { 
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.options button { 
+    text-align: left;
+    padding: 10px; 
+    cursor: pointer; 
+    width: 300px; 
+    margin: 5px auto; 
+}
+button { 
+    margin-top: 10px;
+    padding: 10px; 
+    cursor: pointer;
+}
+.options button:hover {
+    background-color: rgb(123, 138, 150);
+    color: white;
+    transition: background-color 0.3s ease;
+}
